@@ -54,7 +54,7 @@ class ImageAPI:
                 # time.sleep(2)
 
                 # Set camera to capture grayscale image
-                # self.camera.color_effects = (128, 128)
+                self.camera.color_effects = (128, 128)
                 self.camera.awb_mode = 'auto'
                 self.camera.exposure_mode = 'backlight'
                 # self.camera.shutter_speed = 3000
