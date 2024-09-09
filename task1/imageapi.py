@@ -25,7 +25,7 @@ class ImageAPI:
         # config = self.camera.create_preview_configuration(main={"size": (1000, 1000)})
         # self.camera.configure(config)  # Configure camera
         # self.camera.start()  # Start camera
-        self.camera.resolution = (1280,720)
+        self.camera.resolution = (800,800)
 
     # Method to send image to server
     def sendImage(self, image):
