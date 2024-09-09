@@ -8,12 +8,12 @@ import queue
 import numpy as np
 import cv2
 
-from bluetoothapi import BluetoothAPI
+# from bluetoothapi import BluetoothAPI
 
 # ImageAPI class for handling image capture and communication
 class ImageAPI:
     # Network configurations
-    HOST = '192.168.34.13'  # Wei Kang laptop
+    HOST = '192.168.50.11' 
     PORT = '5555'
     READ_BUFFER_SIZE = 2048
 
