@@ -8,7 +8,7 @@ class BluetoothAPI:
 
     # Initialize static variables: MAC addresses, port, and buffer size
     MAC_ADDRESS = 'E4:5F:01:55:A6:F3'
-    TABLET_BlUETOOTH = '90:EE:C7:E7:D3:96'
+    TABLET_BlUETOOTH = '48:61:EE:2A:A9:36'
     PORT_NUMBER = 1
     READ_BUFFER_SIZE = 5096
 
